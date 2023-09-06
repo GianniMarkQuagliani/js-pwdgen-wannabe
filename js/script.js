@@ -22,7 +22,7 @@ favoritecolor = prompt('Inserisci il tuo colore preferito');
 //number23
 number23 = 23;
 //4. Combino le informazioni: nome + cognome + colore preferito + numero (in questo caso è 23)
-message = 'Ciao ' + name + ' ' + lastname + ' ' + favoritecolor + number23;
+message = name + lastname + favoritecolor + number23;
 //5. Stampo il tutto sulla pagina
 outputTag.innerHTML = message;
 
