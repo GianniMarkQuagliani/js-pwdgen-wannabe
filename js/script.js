@@ -11,7 +11,7 @@ Fine
 
 //1. Chiedo all'utente il suo nome
 //Dichiaro tutte le mie variabili
-let name, lastname, favoritecolor, message;
+let name, lastname, favoritecolor, message, number23;
 //Prendo l'elemento dove stamperò nomecognomecolorepreferito23
 const outputTag = document.getElementById('output');
 name = prompt('Inserisci il tuo nome:');
@@ -19,7 +19,9 @@ name = prompt('Inserisci il tuo nome:');
 lastname = prompt('Inserisci il tuo cognome:');
 //3. Chiedo all'utente il suo colore preferito
 favoritecolor = prompt('Inserisci il tuo colore preferito');
+//number23
+number23 = 23;
 //4. Combino le informazioni: nome + cognome + colore preferito + numero (in questo caso è 23)
-message = ' Ciao ' + name + ' ' + lastname + ' ' + favoritecolor
+message = 'Ciao ' + name + ' ' + lastname + ' ' + favoritecolor + number23;
 //5. Stampo il tutto sulla pagina
 outputTag.innerHTML = message;
