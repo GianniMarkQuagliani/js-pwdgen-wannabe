@@ -14,3 +14,6 @@ Fine
 let name, lastname, favoritecolor;
 //Prendo l'elemento dove stamperò nomecognomecolorepreferito23
 const outputTag = document.getElementById('output');
+name = prompt('Inserisci il tuo nome:');
+//2. Chiedo all'utente il suo cognome
+lastname = prompt('Inserisci il tuo cognome:');
