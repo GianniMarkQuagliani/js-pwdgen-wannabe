@@ -25,3 +25,10 @@ number23 = 23;
 message = 'Ciao ' + name + ' ' + lastname + ' ' + favoritecolor + number23;
 //5. Stampo il tutto sulla pagina
 outputTag.innerHTML = message;
+
+// 6. Stampo tutte le variabili e il messaggio completo nella console
+console.log('Nome:', name);
+console.log('Cognome:', lastname);
+console.log('Colore Preferito:', favoritecolor);
+console.log('Numero 23:', number23);
+console.log('Messaggio completo:', message);
