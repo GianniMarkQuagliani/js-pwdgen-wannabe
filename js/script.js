@@ -20,4 +20,6 @@ lastname = prompt('Inserisci il tuo cognome:');
 //3. Chiedo all'utente il suo colore preferito
 favoritecolor = prompt('Inserisci il tuo colore preferito');
 //4. Combino le informazioni: nome + cognome + colore preferito + numero (in questo caso è 23)
-message = ' Ciao ' + name + ' ' + lastname + ' ' + favoritecolor 
+message = ' Ciao ' + name + ' ' + lastname + ' ' + favoritecolor
+//5. Stampo il tutto sulla pagina
+outputTag.innerHTML = message;
