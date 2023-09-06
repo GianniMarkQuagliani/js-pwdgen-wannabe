@@ -11,4 +11,6 @@ Fine
 
 //1. Chiedo all'utente il suo nome
 //Dichiaro tutte le mie variabili
-let name, lastname, favoritecolor
+let name, lastname, favoritecolor;
+//Prendo l'elemento dove stamperò nomecognomecolorepreferito23
+const outputTag = document.getElementById('output');
