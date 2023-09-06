@@ -17,3 +17,5 @@ const outputTag = document.getElementById('output');
 name = prompt('Inserisci il tuo nome:');
 //2. Chiedo all'utente il suo cognome
 lastname = prompt('Inserisci il tuo cognome:');
+//3. Chiedo all'utente il suo colore preferito
+favoritecolor = prompt('Inserisci il tuo colore preferito');
