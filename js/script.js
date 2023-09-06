@@ -10,4 +10,5 @@ Fine
 */
 
 //1. Chiedo all'utente il suo nome
-console.log('ciao mondo');
+//Dichiaro tutte le mie variabili
+let name, lastname, favoritecolor
